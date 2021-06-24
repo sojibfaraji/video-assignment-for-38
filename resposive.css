@@ -1,0 +1,125 @@
+@media (max-width:1280px) {
+    .fixed-with {
+        width: 100%;
+    }
+}
+@media (max-width:1024px) {
+    .fixed-with {
+        width: 100%;
+        margin: auto;
+        padding: 0 10px;
+    }
+    .blog-left-content {
+        float: left;
+        width: 100%;
+    }
+    .blog-left-notification {
+        float: right;
+        width: 100%;
+    }
+    .fotter-left {
+        float: left;
+        width: 35%;
+    }
+    .fotter-right {
+        float: right;
+        width: 64%;
+        margin-right: 10px;
+    }
+}
+@media (max-width:985px) {
+    .fixed-with {
+        width: 100%;
+    }
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-left img {
+        width: 35%;
+        height: auto;
+        padding-top: 3px;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .header-right ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        line-height: 68px;
+        border: none;
+        transition: .4s;
+        padding: 0 20px;
+    }
+    .about {
+        background: #ecf0f1;
+        padding: 30px 0;
+    }
+    .about p {
+        max-width: 67%;
+        margin: auto;
+        font-size: 19px;
+    }
+    .blog-container {
+        margin: 60px 15px;
+    }
+    .blog-left-content {
+        width: 100%;
+    }
+    .blog-left-notification {
+        width: 100%;
+    }
+    .fotter-left {
+        float: left;
+        width: 30%;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .fixed-with {
+        width: 100%;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header-left {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        padding-bottom: 10px;
+    }
+    .header-right ul li a {
+        padding: 0 12px;
+    }
+    .text-center {
+        text-align: center;
+        width: 100%;
+    }
+    .about p {
+        max-width: 79%;
+    }
+    .fotter-left {
+        width: 100%;
+        margin-left: 0;
+    }
+    .fotter-left p {
+        text-align: center;
+        margin: 15px 0;
+    }
+    .fotter-right {
+        width: 100%;
+        margin-right: 0;
+    }
+    .social-menu {
+        text-align: center;
+    }
+    
+
+}
